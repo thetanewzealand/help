@@ -1,4 +1,5 @@
 ---
+section_number: 3
 section_title: Adding a New Programme
 
 ---

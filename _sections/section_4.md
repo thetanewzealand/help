@@ -1,5 +1,6 @@
 ---
-section_title: Files
+section_number: 4
+section_title: Adding to the About Us Section
 
 ---
 

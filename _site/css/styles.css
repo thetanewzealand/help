@@ -9,6 +9,9 @@ header {
 }
 
 
+
+
+
 header .container {
   position: relative;
   z-index: 2;
@@ -103,8 +106,24 @@ a:hover{
 }
 
 .rhs{
+  padding-top: 50px;
+  height: 25vh; // experiment with this value, try changing to 110vh
 
+  overflow: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
 
+}
+
+.list-group-item.active{
+  background-color: #146A37;
+  border: none;
+}
+
+.list-group-item.active:hover{
+  background-color: #146A37;
+  border: none;
 }
 
 
