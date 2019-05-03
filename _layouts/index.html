@@ -19,10 +19,10 @@
   <body>
     <header>
   <div class="overlay">
-    <img class="main-image" src="main.jpg" alt="">
+    
   </div>
   <div class="container h-100">
-    <a class="main-site" href="#">Visit Main Site <i class="fas fa-arrow-circle-right"></i></a>
+    <a class="main-site" href="https://alexgt1.github.io">Visit Main Site <i class="fas fa-arrow-circle-right"></i></a>
     <div class="d-flex h-100 text-center align-items-center">
       <div class="w-100 text-white main-text">
         <img class="background-img" src="logo1.png" alt="theta">
@@ -42,7 +42,7 @@
       <div class="col-md-8 offset-md-1 lhs">
 
         {% for section in site.sections %}
-        <div class="section-divider">
+        <div class="section-divider" id="{{section.section_number}}">
           <h1>{{ section.section_title }}</h1>
           <p>{{ section.content }}</p>
           <hr>
@@ -54,7 +54,7 @@
       <div class="col-md-3 offset-md-1 rhs">
         <div class="list-group">
           {% for section in site.sections %}
-          <a href="#" class="list-group-item list-group-item-action"> {{ section.section_title }}</a>
+          <a href="#{{section.section_number}}" class="list-group-item list-group-item-action"> {{ section.section_title }}</a>
           {% endfor %}
           </div>
       </div>

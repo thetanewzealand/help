@@ -1,26 +1,13 @@
 header {
   position: relative;
-  background-color: black;
   height: 75vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
+  background: url(/main.jpg) fixed;
+  z-index: 1;
 }
 
-header video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
 
 header .container {
   position: relative;
@@ -34,13 +21,13 @@ header .overlay {
   height: 100%;
   width: 100%;
   background-color: #666666;
-  opacity: 0.5;
+  opacity: 0.3;
   z-index: 1;
 }
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    background: url('main.jpg') black no-repeat center center scroll;
   }
   header video {
     display: none;
@@ -73,13 +60,27 @@ header .overlay {
 .main-site:hover{
   text-decoration: none;
   transition: 0.5s;
-  color: #8CC641;
+  color: #000000;
+}
+
+a{
+  color: #3EB449;
+
+}
+
+a:hover{
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+
+
 }
 
 .lhs{
   padding-top: 40px;
   padding-left: 60px;
-  position:relative;
+  padding-right: 60px;
+
 }
 
 .section-divider{
@@ -102,37 +103,11 @@ header .overlay {
 }
 
 .rhs{
-  padding-top: 80px;
-  position:relative;
+  
+
 }
 
 
-
-.flexbox{
-  display:flex;
-    flex-wrap:wrap;
-    justify-content: center;
-}
-
-
-
-@media (max-width: 767px) {
-  .flexbox {
-      justify-content: space-between;
-  }
-
-  .lhs {
-      order:2;
-      padding-top:0px;
-      padding-bottom: 0px;
-  }
-
-  .rhs {
-      order:1;
-      padding-top: 60px!important;
-
-  }
-}
 
 
 .down{
