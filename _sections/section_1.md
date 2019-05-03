@@ -3,7 +3,7 @@ section_number: 1
 section_title: Logging In To Your Account
 ---
 
-Visit [Github.com](www.github.com) to sign in to your account.
+Visit [Github.com](https://github.com/) to sign in to your account.
 
 Click the 'Sign In' button in the top right hand corner of the page.
 

@@ -1,3 +1,4 @@
+
 header {
   position: relative;
   height: 75vh;
@@ -7,9 +8,6 @@ header {
   background: url(../main.jpg) fixed;
   z-index: 1;
 }
-
-
-
 
 
 header .container {
@@ -128,13 +126,13 @@ a:hover{
 
 .footer{
   background-color: #B8B8B8;
-  height: 60px;
+  height: 80px;
   margin: 0 auto;
   text-align: center;
 }
 
 .footer-text{
-  padding: 15px;
+  padding-top: 20px;
 }
 
 
