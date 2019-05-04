@@ -1,5 +1,5 @@
 ---
-section_number: 3
+section_number: 8
 section_title: Choosing a page layout
 
 ---

@@ -3,12 +3,12 @@ section_number: 1
 section_title: Logging In To Your Account
 ---
 
-Visit [cloudcannon.com](https://cloudcannon.com/) to sign in to your account.
+1. Visit [cloudcannon.com](https://cloudcannon.com/) to sign in to your account.
 
-Click the 'Log In' button in the top right hand corner of the page.
+2. Click the 'Log In' button in the top right hand corner of the page.
 
-![sign in](img/login.png)
+    ![sign in](img/login.png)
 
-Enter your details into the form and click the 'Log In' button.
+3. Enter your details into the form and click the 'Log In' button.
 
-![login](img/login-page.png)
+    ![login](img/login-page.png)
