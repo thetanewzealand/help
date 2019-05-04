@@ -1,6 +1,6 @@
 ---
 section_number: 5
-section_title: Adding a new Resource
+section_title: Styling your text
 
 ---
 

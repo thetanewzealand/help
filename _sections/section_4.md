@@ -1,6 +1,6 @@
 ---
 section_number: 4
-section_title: Adding to the About Us Section
+section_title: Edit an existing page
 
 ---
 

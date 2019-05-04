@@ -96,11 +96,11 @@ a:hover{
 .rhs{
   padding-top: 50px;
   height: 25vh; // experiment with this value, try changing to 110vh
-
   overflow: auto;
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
+
 
 }
 
@@ -114,7 +114,9 @@ a:hover{
   border: none;
 }
 
-
+.list-group{
+  width: 300px;
+}
 
 .down{
   padding-top: 100px;
